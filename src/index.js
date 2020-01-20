@@ -13,7 +13,9 @@ const astEmptyFunc = emptyFunction();
 let hasFuncInject = false;
 module.exports = function MapperPlugin({ types: t }) {
   return {
-    pre(state) {},
+    pre(state) {
+      hasFuncInject = false;
+    },
     post(state) {},
     visitor: {
       Identifier(path) {},
