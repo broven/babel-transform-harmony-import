@@ -1,4 +1,4 @@
-# babel-transform-harmony-import
+# babel-plugin-transform-harmony-import
 
 transform harmony import to none harmony import
 
@@ -8,7 +8,7 @@ sometime bundler will remove your unused import, but not we expected, this plugi
 
 ## usage
 ```jsonc
-    ['babel-transform-harmony-import', {
+    ['babel-plugin-transform-harmony-import', {
           localName: ['createElement']
       }]]
     
