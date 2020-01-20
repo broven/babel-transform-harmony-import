@@ -1,0 +1,19 @@
+{
+  "name": "babel-transform-harmony-import",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "npm set registry https://registry.npmjs.org/ && ! rm yarn.lock "
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/template": "^7.8.3",
+    "jest": "^24.9.0"
+  },
+  "np": {
+    "yarn": true,
+    "cleanup": false
+  }
+}

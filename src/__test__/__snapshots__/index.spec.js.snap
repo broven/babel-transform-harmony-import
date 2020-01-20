@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`simple Usage 1`] = `
+"function __babel_transform_harmony_import__() {}
+
+import { testModule } from 'origin';
+
+__babel_transform_harmony_import__(testModule);
+
+import testModule1 from 'origin';
+
+__babel_transform_harmony_import__(testModule1);
+
+import * as importModule2 from 'origin';
+
+__babel_transform_harmony_import__(importModule2);"
+`;
