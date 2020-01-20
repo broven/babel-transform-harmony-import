@@ -1,5 +1,5 @@
 {
-  "name": "babel-transform-harmony-import",
+  "name": "babel-plugin-transform-harmony-import",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",

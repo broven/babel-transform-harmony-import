@@ -6,7 +6,7 @@ const opt = {
     babelrc: false,
     plugins: [
       [plugin, {
-          localName: ['testModule', 'testModule1', 'importModule2']
+          localName: ['testModule', 'testModule1', 'importModule2', 'Nerv']
       }]
     ]
   };
@@ -16,6 +16,8 @@ const opt = {
 import {testModule} from 'origin';
 import testModule1 from 'origin';
 import * as importModule2 from 'origin';
+import Nerv from 'nervjs';
+import dsa from 'dsa';
 `;
 
 it('simple Usage', () => {

@@ -13,5 +13,11 @@ __babel_transform_harmony_import__(testModule1);
 
 import * as importModule2 from 'origin';
 
-__babel_transform_harmony_import__(importModule2);"
+__babel_transform_harmony_import__(importModule2);
+
+import Nerv from 'nervjs';
+
+__babel_transform_harmony_import__(Nerv);
+
+import dsa from 'dsa';"
 `;
